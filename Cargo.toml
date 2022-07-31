@@ -16,7 +16,7 @@ default = []
 bundled = ["jq-sys/bundled"]
 
 [dependencies]
-jq-sys = "0.2.*"
+jq-sys = { git = "https://github.com/thooton/jq-sys" }
 
 [dev-dependencies]
 criterion = "0.2"
